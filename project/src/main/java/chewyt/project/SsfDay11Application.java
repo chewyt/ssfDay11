@@ -15,7 +15,7 @@ public class SsfDay11Application {
 		// SpringApplication.run(SsfDay11Application.class, args);
 		SpringApplication app = new SpringApplication(SsfDay11Application.class);
 
-		String port = "8080";
+		String port = "3000";
 		ApplicationArguments cliOpts = new DefaultApplicationArguments(args);
 		if (cliOpts.containsOption("port")) {
 			port = cliOpts.getOptionValues("port").get(0);
